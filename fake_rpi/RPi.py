@@ -176,7 +176,7 @@ class _GPIO(Base):
 	def setmode(self, a): pass
 
 	@printf
-	def getmode(self): return GPIO.BCM
+	def getmode(self): return GPIO.BOARD
 
 	@printf
 	def setup(self, channel, state, initial=0, pull_up_down=None): pass
