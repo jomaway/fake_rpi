@@ -126,9 +126,11 @@ class _GPIO(Base):
 		def start(self, dc):
 			pass
 
+		@printf
 		def stop(self):
 			pass
 
+		@printf
 		def ChangeDutyCycle(self, dc):
 			pass
 
